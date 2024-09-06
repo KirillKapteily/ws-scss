@@ -1,0 +1,276 @@
+.efectivity {
+  width: 1600;
+  height: 600px;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(to right,
+      rgba(46, 47, 59, 0.247),
+      rgba(46, 47, 59, 0.247)),
+    url("/images/efimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+  .button-order {
+    font-family: "Roboto";
+    background-color: $accent-color;
+    color: white;
+    border: none;
+    width: 216px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition-property: background-color, transform;
+    transition-duration: 250ms;
+    /* line-height: 30px; */
+    /* margin-bottom: 30px; */
+    /* letter-spacing: 6%; */
+    border-radius: 4px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-order:hover {
+    background-color: $accent-color-hover;
+   
+  }
+  
+  .card-img-clock::before,
+  .card-img-clock::after {
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-size: contain;
+    border-radius: 4px;
+  }
+  
+  .card-img-clock::after {
+    background-image: url(images/clock.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+  }
+  
+  .card-img-clock::after {
+    display: flex;
+    background-position: center;
+    background-color: var(--our-command-substrate);
+    background-size: 70px;
+  }
+
+  .card-img::before,
+.card-img::after {
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-size: contain;
+  border-radius: 4px;
+}
+
+.card-img::after {
+  background-image: url(/images/antenna.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.card-img::after {
+  display: flex;
+  background-position: center;
+  background-color: $our-command-substrate;
+  background-size: 70px;
+}
+
+.card-img-clock::before,
+.card-img-clock::after {
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-size: contain;
+  border-radius: 4px;
+}
+
+.card-img-clock::after {
+  background-image: url(/images/clock.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.card-img-clock::after {
+  display: flex;
+  background-position: center;
+  background-color: $our-command-substrate;
+  background-size: 70px;
+}
+
+.card-img-gra::before,
+.card-img-gra::after {
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-size: contain;
+  border-radius: 4px;
+}
+
+.card-img-gra::after {
+  background-image: url(/images/diagram.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.card-img-gra::after {
+  display: flex;
+  background-position: center;
+  background-color: $our-command-substrate;
+  background-size: 70px;
+}
+
+.card-img-astro::before,
+.card-img-astro::after {
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-size: contain;
+  border-radius: 4px;
+}
+
+.card-img-astro::after {
+  background-image: url(/images/astronaut.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.card-img-astro::after {
+  display: flex;
+  background-position: center;
+  background-color: $our-command-substrate;
+  background-size: 70px;
+}
+
+.list-title {
+    color: rgb(33, 33, 33);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 3%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  
+  }
+
+  .p-description {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: $grey-text-color;
+  }
+  
+  .our-team-lisst {
+    list-style: none;
+    margin-bottom: 94px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .our-team-item {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  }
+  
+
+  .our-team {
+    color: $footer-efectivity-substrate-color;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 3%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .section-our-team {
+    background-color: $our-command-substrate;
+    margin-top: 188px;
+    margin-bottom: 50px;
+  
+  }
+
+  .our-team-picture-list {
+    list-style: none;
+    display: block;
+  }
+
+  .name {
+    color: rgb(33, 33, 33);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 3%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .decrip {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 3%;
+    color: $grey-text-color;
+    display: flex;
+    justify-content: center;
+  }
+
+  .svg-ico-item{
+    background-color: rgba(255, 255, 255, 0.1);
+    background-position: center;
+    border-radius: 50%;
+  } 
+  
+  .svg-ico-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-left:0px ;
+    justify-content: center;
+    margin-bottom: 42px;
+    align-items: center;
+  }
+
+  .svg-ico-item:hover{
+    background-color: $accent-color;
+    border-radius: 50%;
+    
+    }
+
+    .so-net-ico{
+      width: 20px;
+    height: 20px;
+    display: block;
+    fill: #e9e6e6;
+    }
+    
+    
+    .so-net-ico:hover{
+       fill:#2196F3;
+    }
+
+    .svg-ico-item:hover{
+      background-color: $accent-color;
+      border-radius: 50%;
+      
+      }
